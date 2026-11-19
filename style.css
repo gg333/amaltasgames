@@ -116,6 +116,23 @@ nav.links {
   font-size: 1.1rem;
 }
 
+/* Each act's screenshots under its own heading. */
+h3.act {
+  font-size: 1rem;
+  margin: 1.6em 0 0;
+}
+
+h3.act span {
+  background: var(--gold);
+  color: #2b2118;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-left: 6px;
+  vertical-align: 2px;
+}
+
 .shots {
   display: grid;
   /* minmax(0, …): some browsers otherwise size the columns from the pictures' full width. */
